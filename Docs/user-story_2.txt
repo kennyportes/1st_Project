@@ -1,0 +1,3 @@
+As an anonymous web browser, 
+I want to be able to search for different vechicles and view the images
+so that I could see which vechicle I like the most.

@@ -1,0 +1,3 @@
+As a customer,
+I want to be able to search for just german automobiles
+so that I can potentially purchase one.

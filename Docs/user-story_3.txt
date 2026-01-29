@@ -1,0 +1,3 @@
+As a car enthusiast,
+I want to be able to get a description of variety of cars on the market
+so that I able to read the different specifications on each car.
