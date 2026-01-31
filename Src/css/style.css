@@ -3,8 +3,6 @@
 }
 
 .car_logo {
-    width: 1358px;
-    
 }
 .title {
     text-align: center;
@@ -12,4 +10,13 @@
 
 .car{
     width: 275px;
+}
+.manufacturer {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+.manufacturer img {
+  height: 200px;
+  width: auto;
+  border-radius: 10%;
 }
