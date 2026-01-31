@@ -3,9 +3,13 @@
 }
 
 .car_logo {
-    width: 949px;
+    width: 1358px;
     
 }
 .title {
     text-align: center;
+}
+
+.car{
+    width: 275px;
 }
