@@ -10,6 +10,7 @@ color: red;
 text-decoration: underline;
 }
 
+
 .navbar-brand:hover {
   color:#6c757d;
 }
@@ -41,10 +42,41 @@ text-decoration: underline;
 .manufacturer {
   padding-right: 1rem;
   padding-bottom: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .manufacturer img {
   height: 200px;
   width: auto;
   border-radius: 10%;
+}
+
+.contactus {
+  text-align: center;
+  border: 10px solid black;
+  border-radius: 1%;
+}
+
+.contactheading {
+  font-style: inherit;
+  text-decoration: underline;
+}
+.contactlist {
+
+   text-align: center;
+   list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  list-style: none;
+  
+}
+
+.list {
+  display: inline-block;
 }
