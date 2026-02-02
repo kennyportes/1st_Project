@@ -103,8 +103,6 @@ textarea {
   padding: 5px;
 }
 
-.price {
-  text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
+.form-title {
+  text-align: center;
 }
