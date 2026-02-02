@@ -64,7 +64,8 @@ body {
 
 .description {
   font-style: oblique;
-  border: 10px solid black;
+  border: 5px double black;
+  padding: 5px;
   border-radius: 1%;
 }
 
