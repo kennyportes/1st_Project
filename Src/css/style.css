@@ -102,3 +102,9 @@ textarea {
   justify-content: center;
   padding: 5px;
 }
+
+.price {
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+}
