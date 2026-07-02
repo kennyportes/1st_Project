@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project #1</title>
+  <title>Home Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">>
       <div class="header-page container-fluid">
         <a class="navbar-brand" href="#">Autobahn</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#logo"
@@ -50,7 +50,7 @@
     <div class="bordered-div">
       <h1 class="title">German Automoblies For Sale</h1>
     </div>
-    <div class="d-flex flex-wrap">
+    <div class="d-flex flex-wrap gap-4 justify-content-center">
       <section class="manufacturer">
         <img id="audi" src="./images/R8 GT.jpg" alt="Audi R8">
         <h3>Audi</h3>
@@ -120,30 +120,22 @@
         </div>
       </div>
     </div>
-    <footer class="container-fluid">
-      &copy; Autobahn 2026.
-      <ul class="social">
-        <li class="list">
-          <a href="https://www.facebook.com/kenny.portes">
-            <img class="icon" src="./images/facebook-icon.png" alt="facebook" />
-          </a>
-        </li>
-        <li class="list">
-          <a href="https://www.instagram.com/kenken_3445/">
-            <img class="icon" src="./images/instagram-icon.png" alt="instagram" />
-          </a>
-        </li>
-        <li class="list">
-          <a href="https://x.com/kenny02387484">
-            <img class="icon" src="./images/twitter-icon.png" alt="x" />
-          </a>
-        </li>
-      </ul>
-  </div>
+  </div> 
+  <hr class="border border-danger border-2 opacity-50">
+  
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
+    <p class="col-md-4 mb-0 text-muted">&copy; Autobahn 2026.</p>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
+      <li>
+        <a href="https://www.linkedin.com/in/kennyportes/" target="_blank" rel="noreferrer">
+          <img class="icon" src="./images/linkedin.svg" alt="linkedin" style="width:24px; height:24px;" />
+        </a>
+      </li>
+    </ul>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-    </script>
+  </script>
 </body>
-
-</html>

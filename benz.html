@@ -4,63 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercedes-Benz SLR Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Mercedes-Benz SLR McLaren Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
 </head>
-
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
             <div class="container-fluid">
                 <a href="./index.html" class="navbar-brand">Autobahn</a>
                 <a class="btn btn-primary" href="./contact.html">Contact Us</a>
             </div>
         </nav>
     </header>
-    <main class="container-fluid">
-        <div id="carouselExampleCaptions" class="carousel slide">
+    <main class="container-fluid pt-5 mt-4">
+        <div id="benzCarousel" class="carousel slide benz-slr-carousel" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#bmwCarousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#benzCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#benzCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#benzCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#benzCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#benzCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#benzCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/benz_1.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/Benz_1.jpg" class="d-block w-100" alt="Mercedes-Benz SLR McLaren Front">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Benz_2.jpg" class="d-block w-100" alt="Mercedes-Benz SLR McLaren Front Angle 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Benz_3.jpg" class="d-block w-100" alt="Mercedes-Benz SLR McLaren Front Angle 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Benz_4.webp" class="d-block w-100" alt="Mercedes-Benz SLR McLaren Rear">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Benz_5.webp" class="d-block w-100" alt="Mercedes-Benz SLR McLaren Rear Angle">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Benz_6.webp" class="d-block w-100" alt="Mercedes-Benz SLR McLaren Doors Open">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Benz_7.webp" class="d-block w-100" alt="Mercedes-Benz SLR McLaren Interior">
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="./images/Benz_2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./images/Benz_3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#benzCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#benzCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        </div>
-        <section>
-            <h1>2008 Mercedes-Benz SLR McLaren</h1>
-            <h4>$333,333</h6>
-                <h5>2dr Cope (5.4L 8cyl)</h5>
-                <p>
+
+        <hr class="border border-danger border-2 opacity-50 my-4">
+
+        <section class="mt-4 px-2">
+            <h1 class="display-5 fw-bold">2009 Mercedes-Benz SLR McLaren</h1>
+            <h4 class="text-success">$333,333</h4>
+            <h5 class="text-muted text-uppercase small">Roadster (5.4L 8cyl)</h5>
+            <p class="lead fs-6 mt-3">
                     The 2008 Mercedes-Benz SLR McLaren is a striking byproduct of a rare collaboration between
                     Mercedes-Benz and its then-Formula 1 partner, McLaren, resulting in a "grand touring" supercar with
                     unmatched presence. Its long, dramatic hood houses a hand-built 5.4-liter supercharged V8 that
@@ -71,34 +81,24 @@
                     iconic swing-wing butterfly doors and a front-end design meant to mimic a Silver Arrows F1 car, the
                     2008 SLR remains a polarizing yet prestigious titan of the 2000s that commands attention for its
                     unique blend of German engineering and British racing pedigree
-                </p>
+
+            </p>
         </section>
-        <hr class="border border-danger border-2 opacity-50">
+        <hr class="border border-danger border-2 opacity-50 my-4">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
+            <p class="col-md-4 mb-0 text-muted">&copy; Autobahn 2026.</p>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
+                <li>
+                    <a href="https://www.linkedin.com/in/kennyportes/" target="_blank" rel="noreferrer">
+                        <img class="icon" src="./images/linkedin.svg" alt="linkedin" style="width:24px; height:24px;" />
+                    </a>
+                </li>
+            </ul>
+        </footer>
     </main>
-    <footer class="container-fluid">
-        &copy; Autobahn 2026.
-        <ul class="social">
-            <li class="list">
-                <a href="https://www.facebook.com/kenny.portes">
-                    <img class="icon" src="./images/facebook-icon.png" alt="facebook" />
-                </a>
-            </li>
-            <li class="list">
-                <a href="https://www.instagram.com/kenken_3445/">
-                    <img class="icon" src="./images/instagram-icon.png" alt="instagram" />
-                </a>
-            </li>
-            <li class="list">
-                <a href="https://x.com/kenny02387484">
-                    <img class="icon" src="./images/twitter-icon.png" alt="x" />
-                </a>
-            </li>
-        </ul>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
 </body>
-
 </html>

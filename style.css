@@ -106,3 +106,33 @@ textarea {
 .form-title {
   text-align: center;
 }
+
+#audiCarousel .carousel-item img {
+  height: 650px;
+  object-fit: cover; 
+}
+
+#bmwCarousel .carousel-item img {
+  height: 660px; 
+  object-fit: cover; 
+}
+
+#benzCarousel .carousel-item img {
+  height: 650px; 
+  object-fit: cover; 
+}
+
+#opelCarousel .carousel-item img {
+  height: 650px; 
+  object-fit: cover; 
+}
+
+#porscheCarousel .carousel-item img {
+  height: 650px; 
+  object-fit: cover; 
+}
+
+#vwCarousel .carousel-item img {
+  height: 625px; 
+  object-fit: cover; 
+}
