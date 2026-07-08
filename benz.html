@@ -9,6 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
@@ -71,66 +72,67 @@
             <h4 class="text-success">$333,333</h4>
             <h5 class="text-muted text-uppercase small">Roadster (5.4L 8cyl)</h5>
             <p class="lead fs-6 mt-3">
-                    The 2008 Mercedes-Benz SLR McLaren is a striking byproduct of a rare collaboration between
-                    Mercedes-Benz and its then-Formula 1 partner, McLaren, resulting in a "grand touring" supercar with
-                    unmatched presence. Its long, dramatic hood houses a hand-built 5.4-liter supercharged V8 that
-                    produces a thunderous 617 horsepower, exhaling through distinctive side-exit exhausts located just
-                    behind the front wheels. While its carbon-fiber monocoque and active rear "airbrake" were inspired
-                    by high-end racing tech, the SLR was designed to cross continents at 200 mph in relative comfort,
-                    featuring a five-speed automatic transmission and a luxurious, leather-clad interior. With its
-                    iconic swing-wing butterfly doors and a front-end design meant to mimic a Silver Arrows F1 car, the
-                    2008 SLR remains a polarizing yet prestigious titan of the 2000s that commands attention for its
-                    unique blend of German engineering and British racing pedigree
+                The 2008 Mercedes-Benz SLR McLaren is a striking byproduct of a rare collaboration between
+                Mercedes-Benz and its then-Formula 1 partner, McLaren, resulting in a "grand touring" supercar with
+                unmatched presence. Its long, dramatic hood houses a hand-built 5.4-liter supercharged V8 that
+                produces a thunderous 617 horsepower, exhaling through distinctive side-exit exhausts located just
+                behind the front wheels. While its carbon-fiber monocoque and active rear "airbrake" were inspired
+                by high-end racing tech, the SLR was designed to cross continents at 200 mph in relative comfort,
+                featuring a five-speed automatic transmission and a luxurious, leather-clad interior. With its
+                iconic swing-wing butterfly doors and a front-end design meant to mimic a Silver Arrows F1 car, the
+                2008 SLR remains a polarizing yet prestigious titan of the 2000s that commands attention for its
+                unique blend of German engineering and British racing pedigree
 
             </p>
         </section>
-        </main>
+    </main>
 
-        <div id="contact" class="modal fade" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Contact Us</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form action="https://formspree.io/f/mvzqbowk" method="POST" class="contact-form">
-            <div class="form-row">
-              <input type="text" id="name-field" name="name" placeholder="Enter full your name">
+    <div id="contact" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/f/mvzqbowk" method="POST" class="contact-form">
+                        <div class="form-row">
+                            <input type="text" id="name-field" name="name" placeholder="Enter full your name">
+                        </div>
+                        <div class="form-row">
+                            <input id="email-field" type="email" name="email" placeholder="Enter your E-mail">
+                        </div>
+                        <div class="form-row">
+                            <textarea name="message" id="message-field" cols="30" rows="10"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-danger">Clear</button>
+                </div>
             </div>
-            <div class="form-row">
-              <input id="email-field" type="email" name="email" placeholder="Enter your E-mail">
-            </div>
-            <div class="form-row">
-              <textarea name="message" id="message-field" cols="30" rows="10"
-                placeholder="Enter your message"></textarea>
-            </div>
-          </form>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <button type="reset" class="btn btn-danger">Clear</button>
-        </div>
-      </div>
     </div>
-  </div>
 
-        <hr class="border border-danger border-2 opacity-50 my-4">
+    <hr class="border border-danger border-2 opacity-50 my-4">
 
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
-            <p class="col-md-4 mb-0 text-muted">&copy; Autobahn 2026.</p>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
+        <p class="col-md-4 mb-0 text-muted">&copy; Autobahn 2026.</p>
 
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
-                <li>
-                    <a href="https://www.linkedin.com/in/kennyportes/" target="_blank" rel="noreferrer">
-                        <img class="icon" src="./images/linkedin.svg" alt="linkedin" style="width:24px; height:24px;" />
-                    </a>
-                </li>
-            </ul>
-        </footer>
-    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
+            <li>
+                <a href="https://www.linkedin.com/in/kennyportes/" target="_blank" rel="noreferrer">
+                    <img class="icon" src="./images/linkedin.svg" alt="linkedin" style="width:24px; height:24px;" />
+                </a>
+            </li>
+        </ul>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
 </body>
+
 </html>

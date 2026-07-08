@@ -9,6 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
@@ -19,16 +20,23 @@
         </nav>
     </header>
     <main class="container-fluid pt-5 mt-4">
-        <div id="porscheCarousel" class="carousel slide porsche-gt3-carousel" data-bs-ride="carousel" data-bs-interval="3000">
+        <div id="porscheCarousel" class="carousel slide porsche-gt3-carousel" data-bs-ride="carousel"
+            data-bs-interval="3000">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#bmwCarousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#porscheCarousel" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -71,67 +79,68 @@
             <h4 class="text-success">$402,500</h4>
             <h5 class="text-muted text-uppercase small">Cope 4.0-liter Flat-six</h5>
             <p class="lead fs-6 mt-3">
-                    The 2025 Porsche 911 GT3 RS is a street-legal racing weapon that prioritizes aerodynamic mastery and
-                    high-revving theater over almost everything else. At its core is a mid-mounted, naturally aspirated
-                    4.0-liter flat-six engine that screams to a 9,000-rpm redline, producing 518 horsepower and 342
-                    lb-ft of torque. The car is instantly recognizable by its massive, active rear wing equipped with a
-                    Formula 1-style Drag Reduction System (DRS), which, alongside a single-cooler front concept and
-                    aggressive wheel arch vents, helps generate staggering amounts of downforce for high-speed
-                    cornering. Inside, the cabin is a focused "motorsport office" featuring lightweight carbon-fiber
-                    bucket seats, a fully digital gauge cluster with a track-specific display mode, and a steering wheel
-                    bristling with dials to adjust suspension damping and traction control on the fly. By utilizing
-                    extensive carbon fiber-reinforced plastic (CFRP) and omitting a front trunk in favor of cooling
-                    efficiency, the GT3 RS remains a lightweight, surgical instrument designed to dominate the
-                    Nürburgring while still wearing a license plate.
+                The 2025 Porsche 911 GT3 RS is a street-legal racing weapon that prioritizes aerodynamic mastery and
+                high-revving theater over almost everything else. At its core is a mid-mounted, naturally aspirated
+                4.0-liter flat-six engine that screams to a 9,000-rpm redline, producing 518 horsepower and 342
+                lb-ft of torque. The car is instantly recognizable by its massive, active rear wing equipped with a
+                Formula 1-style Drag Reduction System (DRS), which, alongside a single-cooler front concept and
+                aggressive wheel arch vents, helps generate staggering amounts of downforce for high-speed
+                cornering. Inside, the cabin is a focused "motorsport office" featuring lightweight carbon-fiber
+                bucket seats, a fully digital gauge cluster with a track-specific display mode, and a steering wheel
+                bristling with dials to adjust suspension damping and traction control on the fly. By utilizing
+                extensive carbon fiber-reinforced plastic (CFRP) and omitting a front trunk in favor of cooling
+                efficiency, the GT3 RS remains a lightweight, surgical instrument designed to dominate the
+                Nürburgring while still wearing a license plate.
             </p>
         </section>
-        </main>
+    </main>
 
-        <div id="contact" class="modal fade" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Contact Us</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form action="https://formspree.io/f/mvzqbowk" method="POST" class="contact-form">
-            <div class="form-row">
-              <input type="text" id="name-field" name="name" placeholder="Enter full your name">
+    <div id="contact" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/f/mvzqbowk" method="POST" class="contact-form">
+                        <div class="form-row">
+                            <input type="text" id="name-field" name="name" placeholder="Enter full your name">
+                        </div>
+                        <div class="form-row">
+                            <input id="email-field" type="email" name="email" placeholder="Enter your E-mail">
+                        </div>
+                        <div class="form-row">
+                            <textarea name="message" id="message-field" cols="30" rows="10"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-danger">Clear</button>
+                </div>
             </div>
-            <div class="form-row">
-              <input id="email-field" type="email" name="email" placeholder="Enter your E-mail">
-            </div>
-            <div class="form-row">
-              <textarea name="message" id="message-field" cols="30" rows="10"
-                placeholder="Enter your message"></textarea>
-            </div>
-          </form>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <button type="reset" class="btn btn-danger">Clear</button>
-        </div>
-      </div>
     </div>
-  </div>
 
-        <hr class="border border-danger border-2 opacity-50 my-4">
-        
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
-            <p class="col-md-4 mb-0 text-muted">&copy; Autobahn 2026.</p>
+    <hr class="border border-danger border-2 opacity-50 my-4">
 
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
-                <li>
-                    <a href="https://www.linkedin.com/in/kennyportes/" target="_blank" rel="noreferrer">
-                        <img class="icon" src="./images/linkedin.svg" alt="linkedin" style="width:24px; height:24px;" />
-                    </a>
-                </li>
-            </ul>
-        </footer>
-    
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
+        <p class="col-md-4 mb-0 text-muted">&copy; Autobahn 2026.</p>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
+            <li>
+                <a href="https://www.linkedin.com/in/kennyportes/" target="_blank" rel="noreferrer">
+                    <img class="icon" src="./images/linkedin.svg" alt="linkedin" style="width:24px; height:24px;" />
+                </a>
+            </li>
+        </ul>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
 </body>
+
 </html>

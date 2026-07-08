@@ -9,6 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
@@ -19,7 +20,8 @@
         </nav>
     </header>
     <main class="container-fluid pt-5 mt-4">
-        <div id="opelCarousel" class="carousel slide opel-speedster-carousel" data-bs-ride="carousel" data-bs-interval="3000">
+        <div id="opelCarousel" class="carousel slide opel-speedster-carousel" data-bs-ride="carousel"
+            data-bs-interval="3000">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#bmwCarousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -71,63 +73,64 @@
             <h4 class="text-success">$38,573</h4>
             <h5 class="text-muted text-uppercase small">Roadster (2.2 16V 4 cyl turbocharged)</h5>
             <p class="lead fs-6 mt-3">
-                    The 2004 Opel Speedster, particularly in its turbocharged "Turbo" variant, is a purist’s dream—a
-                    mid-engine, lightweight sports car built on the same aluminum chassis as the Lotus Elise. It strips
-                    away almost all modern luxuries in favor of a raw, analog driving experience, weighing just around
-                    2,050 lbs and featuring a spartan interior with exposed metal and manual controls. The 2004 model
-                    year is defined by its 2.0-liter turbocharged engine producing 200 horsepower, which, when paired
-                    with such a featherweight body, allows for a 0 to 60 mph sprint in under 5 seconds. With its sharp,
-                    angular styling, low center of gravity, and lack of power steering, the Speedster offers surgical
-                    handling and a level of road feedback that is nearly impossible to find in contemporary cars.
+                The 2004 Opel Speedster, particularly in its turbocharged "Turbo" variant, is a purist’s dream—a
+                mid-engine, lightweight sports car built on the same aluminum chassis as the Lotus Elise. It strips
+                away almost all modern luxuries in favor of a raw, analog driving experience, weighing just around
+                2,050 lbs and featuring a spartan interior with exposed metal and manual controls. The 2004 model
+                year is defined by its 2.0-liter turbocharged engine producing 200 horsepower, which, when paired
+                with such a featherweight body, allows for a 0 to 60 mph sprint in under 5 seconds. With its sharp,
+                angular styling, low center of gravity, and lack of power steering, the Speedster offers surgical
+                handling and a level of road feedback that is nearly impossible to find in contemporary cars.
             </p>
         </section>
-        </main>
+    </main>
 
-        <div id="contact" class="modal fade" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Contact Us</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form action="https://formspree.io/f/mvzqbowk" method="POST" class="contact-form">
-            <div class="form-row">
-              <input type="text" id="name-field" name="name" placeholder="Enter full your name">
+    <div id="contact" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/f/mvzqbowk" method="POST" class="contact-form">
+                        <div class="form-row">
+                            <input type="text" id="name-field" name="name" placeholder="Enter full your name">
+                        </div>
+                        <div class="form-row">
+                            <input id="email-field" type="email" name="email" placeholder="Enter your E-mail">
+                        </div>
+                        <div class="form-row">
+                            <textarea name="message" id="message-field" cols="30" rows="10"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-danger">Clear</button>
+                </div>
             </div>
-            <div class="form-row">
-              <input id="email-field" type="email" name="email" placeholder="Enter your E-mail">
-            </div>
-            <div class="form-row">
-              <textarea name="message" id="message-field" cols="30" rows="10"
-                placeholder="Enter your message"></textarea>
-            </div>
-          </form>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <button type="reset" class="btn btn-danger">Clear</button>
-        </div>
-      </div>
     </div>
-  </div>
 
-        <hr class="border border-danger border-2 opacity-50 my-4">
+    <hr class="border border-danger border-2 opacity-50 my-4">
 
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
-            <p class="col-md-4 mb-0 text-muted">&copy; Autobahn 2026.</p>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
+        <p class="col-md-4 mb-0 text-muted">&copy; Autobahn 2026.</p>
 
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
-                <li>
-                    <a href="https://www.linkedin.com/in/kennyportes/" target="_blank" rel="noreferrer">
-                        <img class="icon" src="./images/linkedin.svg" alt="linkedin" style="width:24px; height:24px;" />
-                    </a>
-                </li>
-            </ul>
-        </footer>
-    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
+            <li>
+                <a href="https://www.linkedin.com/in/kennyportes/" target="_blank" rel="noreferrer">
+                    <img class="icon" src="./images/linkedin.svg" alt="linkedin" style="width:24px; height:24px;" />
+                </a>
+            </li>
+        </ul>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
 </body>
+
 </html>
