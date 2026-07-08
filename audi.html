@@ -17,7 +17,7 @@
      <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
             <div class="container-fluid">
                 <a href="./index.html" class="navbar-brand">Autobahn</a>
-                <a class="btn btn-primary" href="./contact.html">Contact Us</a>
+                <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#contact">Contact Us</a>
             </div>
         </nav>
   </header>
@@ -87,7 +87,34 @@
       </p>
     </section>
   </main>
-  
+  <div id="contact" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="https://formspree.io/f/mvzqbowk" method="POST" class="contact-form">
+            <div class="form-row">
+              <input type="text" id="name-field" name="name" placeholder="Enter full your name">
+            </div>
+            <div class="form-row">
+              <input id="email-field" type="email" name="email" placeholder="Enter your E-mail">
+            </div>
+            <div class="form-row">
+              <textarea name="message" id="message-field" cols="30" rows="10"
+                placeholder="Enter your message"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-danger">Clear</button>
+        </div>
+      </div>
+    </div>
+  </div> 
   
   <hr class="border border-danger border-2 opacity-50">
   
